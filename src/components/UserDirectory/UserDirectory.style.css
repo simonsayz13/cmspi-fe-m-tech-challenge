@@ -1,0 +1,29 @@
+.mainContainer {
+    color: 'white'
+}
+
+.userContainer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+    background-color: yellow;
+    margin-bottom: 10px;
+    color: black
+}
+
+.userNameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.selectedUserContainer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+    background-color: red;
+    margin-bottom: 10px;
+    color: black
+}

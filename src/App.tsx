@@ -1,9 +1,11 @@
 import logo from "./assets/logo.svg";
 import "./App.css";
 import data from "./mock/data.json";
+import UserDirectory from "./components/UserDirectory/UserDirectory";
+import { useState } from "react";
 
 function App() {
-  // const users = data.users;
+  const users = data.users;
 
   return (
     <>
@@ -16,6 +18,7 @@ function App() {
         </div>
         <div className="content">
           {/* TODO: Add the UserDirectory component here */}
+          <UserDirectory data={users} />
         </div>
       </div>
     </>
